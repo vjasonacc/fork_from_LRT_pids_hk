@@ -39,7 +39,7 @@ tr td {
 }
 
 #eta > tbody > tr:nth-child(2n+1) {
-    background-color: #FFF8F2;
+    background-color: #ffffff;
     border: 1px solid lightgray;
 }
 
