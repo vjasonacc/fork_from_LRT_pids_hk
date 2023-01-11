@@ -7,11 +7,12 @@ class ArrivalEntry {
     time_type;
     ttnt_zh;
     ttnt_en;
-    constructor(route_no, train_length, dest_zh, dest_en, time_type, ttnt_zh, ttnt_en) {
+    constructor(route_no, train_length, dest_en, time_type, ttnt_zh, ttnt_en) {
         this.route_no = route_no;
         this.train_length = train_length;
         this.dest_en = dest_en;
         this.time_type = time_type;
+        this.ttnt_zh = ttnt_zh;
         this.ttnt_en = ttnt_en;
     }
 }
