@@ -3,13 +3,15 @@ const ApiURL = "https://MTRData.kennymhhui.repl.co/lr?stnId={stn}";
 class ArrivalEntry {
     route_no;
     train_length;
+    dest_zh;
     dest_en;
     time_type;
     ttnt_zh;
     ttnt_en;
-    constructor(route_no, train_length, dest_en, time_type, ttnt_zh, ttnt_en) {
+    constructor(route_no, train_length, dest_zh, dest_en, time_type, ttnt_zh, ttnt_en) {
         this.route_no = route_no;
         this.train_length = train_length;
+        this.dest_zh = dest_zh
         this.dest_en = dest_en;
         this.time_type = time_type;
         this.ttnt_zh = ttnt_zh;
