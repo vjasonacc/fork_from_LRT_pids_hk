@@ -3,7 +3,6 @@ const ApiURL = "https://MTRData.kennymhhui.repl.co/lr?stnId={stn}";
 class ArrivalEntry {
     route_no;
     train_length;
-    #dest_zh;
     dest_en;
     time_type;
     ttnt_zh;
@@ -14,7 +13,6 @@ class ArrivalEntry {
         this.dest_zh = dest_zh;
         this.dest_en = dest_en;
         this.time_type = time_type;
-        this.ttnt_zh = ttnt_zh;
         this.ttnt_en = ttnt_en;
     }
 }
