@@ -33,7 +33,7 @@ function updateETARow(arrData) {
             etaTable.append(row);
         } else {
             let etaMin = "";
-            let timetext = " |min";
+            let timetext = "min";
             let carImg = `<img src="./assets/img/lrv.png" alt="LRV Car">`;
             if(entry.ttnt_en.includes("min")) {
                 etaMin = entry.ttnt_en.split(" min")[0];
